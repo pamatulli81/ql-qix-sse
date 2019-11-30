@@ -1,0 +1,260 @@
+{
+  "_inherit": false,
+  "customStyles": [
+    {
+      "cssRef": "dist/theme.css",
+      "classRef": "qliklab-theme"
+    }
+  ],
+  "_variables": {
+    "@qliklab-green-1": "#a0ce4e",
+    "@qliklab-green-2": "#5ea819",
+    "@qliklab-green-1-75": "#4066B3",
+    "@white": "#fff",
+    "@sand-stone": "#D5CEB5",
+    "@dark-stone": "#A89F96",
+    "@black-stone": "#4C433D",
+    "@dove": "#E7ECEB",
+    "@grass-green": "#294000",
+    "@mid-green": "#527F00",
+    "@light-green": "#A3FF00",
+    "@teal": "#007396",
+    "@turquoise": "#00BFB3",
+    "@lemon": "#E0E27C",
+    "@orange": "#F69C00",
+    "@salmon": "#EA635C",
+    "@custom-main-bg": "#f5f7f7",
+    "@custom-extension-title-grey": "#6f6f6f",
+    "@custom-content-grey": "#595959",
+    "@custom-label-grey": "#787878",
+    "@font-normal": "12px"
+  },
+  "color": "@black-stone",
+  "fontSize": "@font-normal",
+  "backgroundColor": "@white",
+  "dataColors": {
+    "primaryColor": "@qliklab-green-1",
+    "othersColor": "@sand-stone",
+    "errorColor": "@salmon",
+    "nullColor": "#ffff66"
+  },
+  "scales": [
+    {
+      "name": "QlikLab Chart Colors (Primary and Secondary)",
+      "translation": "QlikLab Chart Colors (Primary and Secondary)",
+      "propertyValue": "zcc_primary_secondary",
+      "type": "class",
+      "scale": [
+        "@qliklab-green-2",
+        "@sand-stone",
+        "@qliklab-green-1",
+        "@light-green",
+        "@dove",
+        "@dark-stone",
+        "@grass-green"
+      ]
+    },
+    {
+      "name": "QlikLab Chart Colors (Full)",
+      "translation": "QlikLab Chart Colors (Full)",
+      "propertyValue": "zcc_full",
+      "type": "class",
+      "scale": [
+        "@qliklab-green-2",
+        "@sand-stone",
+        "@qliklab-green-1",
+        "@light-green",
+        "@dove",
+        "@dark-stone",
+        "@grass-green",
+        "@teal",
+        "@turquoise",
+        "@lemon",
+        "@orange",
+        "@salmon"
+      ]
+    }
+  ],
+  "palettes": {
+    "data": [
+      {
+        "name": "QlikLab Data Colors (Full)",
+        "translation": "QlikLab Data Colors (Full)",
+        "propertyValue": "zdc_full",
+        "type": "pyramid",
+        "scale": [
+          [
+            "@qliklab-green-2"
+          ],
+          [
+            "@qliklab-green-2",
+            "@sand-stone"
+          ],
+          [
+            "@qliklab-green-2",
+            "@sand-stone",
+            "@qliklab-green-1"
+          ],
+          [
+            "@qliklab-green-2",
+            "@sand-stone",
+            "@qliklab-green-1",
+            "@light-green"
+          ],
+          [
+            "@qliklab-green-2",
+            "@sand-stone",
+            "@qliklab-green-1",
+            "@light-green",
+            "@dove"
+          ],
+          [
+            "@qliklab-green-2",
+            "@sand-stone",
+            "@qliklab-green-1",
+            "@light-green",
+            "@dove",
+            "@dark-stone"
+          ],
+          [
+            "@qliklab-green-2",
+            "@sand-stone",
+            "@qliklab-green-1",
+            "@light-green",
+            "@dove",
+            "@dark-stone",
+            "@grass-green"
+          ],
+          [
+            "@qliklab-green-2",
+            "@sand-stone",
+            "@qliklab-green-1",
+            "@light-green",
+            "@dove",
+            "@dark-stone",
+            "@grass-green",
+            "@teal"
+          ],
+          [
+            "@qliklab-green-2",
+            "@sand-stone",
+            "@qliklab-green-1",
+            "@light-green",
+            "@dove",
+            "@dark-stone",
+            "@grass-green",
+            "@teal",
+            "@turquoise"
+          ],
+          [
+            "@qliklab-green-2",
+            "@sand-stone",
+            "@qliklab-green-1",
+            "@light-green",
+            "@dove",
+            "@dark-stone",
+            "@grass-green",
+            "@teal",
+            "@turquoise",
+            "@lemon"
+          ],
+          [
+            "@qliklab-green-2",
+            "@sand-stone",
+            "@qliklab-green-1",
+            "@light-green",
+            "@dove",
+            "@dark-stone",
+            "@grass-green",
+            "@teal",
+            "@turquoise",
+            "@lemon",
+            "@orange"
+          ],
+          [
+            "@qliklab-green-2",
+            "@sand-stone",
+            "@qliklab-green-1",
+            "@light-green",
+            "@dove",
+            "@dark-stone",
+            "@grass-green",
+            "@teal",
+            "@turquoise",
+            "@lemon",
+            "@orange",
+            "@salmon"
+          ]
+        ]
+      },
+      {
+        "name": "QlikLab Data Colors (Primary and Secondary)",
+        "translation": "QlikLab Data Colors (Primary and Secondary)",
+        "propertyValue": "zdc_primary_secondary",
+        "type": "pyramid",
+        "scale": [
+          [
+            "@qliklab-green-2"
+          ],
+          [
+            "@qliklab-green-2",
+            "@sand-stone"
+          ],
+          [
+            "@qliklab-green-2",
+            "@sand-stone",
+            "@qliklab-green-1"
+          ],
+          [
+            "@qliklab-green-2",
+            "@sand-stone",
+            "@qliklab-green-1",
+            "@light-green"
+          ],
+          [
+            "@qliklab-green-2",
+            "@sand-stone",
+            "@qliklab-green-1",
+            "@light-green",
+            "@dove"
+          ],
+          [
+            "@qliklab-green-2",
+            "@sand-stone",
+            "@qliklab-green-1",
+            "@light-green",
+            "@dove",
+            "@dark-stone"
+          ],
+          [
+            "@qliklab-green-2",
+            "@sand-stone",
+            "@qliklab-green-1",
+            "@light-green",
+            "@dove",
+            "@dark-stone",
+            "@grass-green"
+          ]
+        ]
+      }
+    ],
+    "ui": [
+      {
+        "name": "QlikLab UI Colors",
+        "colors": [
+          "none",
+          "@qliklab-green-1-75",
+          "@qliklab-green-2",
+          "@custom-extension-title-grey",
+          "@custom-content-grey",
+          "@custom-label-grey",
+          "@teal",
+          "@turquoise",
+          "@lemon",
+          "@orange",
+          "@salmon"
+        ]
+      }
+    ]
+  }
+}
