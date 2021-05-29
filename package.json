@@ -30,7 +30,7 @@
     "path": "^0.12.7",
     "qlik-sse": "^0.3.0",
     "require-all": "^3.0.0",
-    "ws": "^7.2.0",
+    "ws": "^7.4.6",
     "yargs": "^13.3.0"
   },
   "devDependencies": {
